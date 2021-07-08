@@ -29,7 +29,7 @@ function filterByQuery(query, animalsArray) {
       );
     });
   }
-  
+
   if (query.diet) {
     filteredResults = filteredResults.filter(animal => animal.diet === query.diet);
   }
@@ -43,7 +43,7 @@ function filterByQuery(query, animalsArray) {
   return filteredResults;
 }
 
-app.get('/api/animals', (req, res) => {
+app.get('/', (req, res) => {
   let results = animals;
   if (req.query) {
     results = filterByQuery(req.query, results);
