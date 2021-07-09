@@ -109,6 +109,17 @@
         "goofy"
       ],
       "id": "10"
+    },
+    {
+      "name": "Nadir",
+      "species": "Programador",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "zany",
+        "anxious",
+        "goofy"
+      ],
+      "id": "11"
     }
   ]
 }
